@@ -1,0 +1,7 @@
+OS X has a nasty habit of spreading .DS_Store files everywhere, which are an
+annoyance on devices which don't hide  them (like my mp3 player). This script
+walks through a directory tree and deletes the .DS_Store files it finds.
+
+Usage can be found by running rmds.py -h. Just take care when changing the
+directory and filename flags, as recursive deletion can turn nasty. To prevent
+major issues rmds will provide a list of files before actually deleting.
